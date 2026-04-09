@@ -1,0 +1,693 @@
+@prefix :       <http://example.com/> .
+@prefix bf:     <http://id.loc.gov/ontologies/bibframe/> .
+@prefix foaf:   <http://xmlns.com/foaf/0.1/> .
+@prefix owl:    <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
+@prefix vcard:  <http://www.w3.org/2006/vcard/ns#> .
+@prefix viaf:   <http://viaf.org/viaf/data/> .
+@prefix wd:     <http://www.wikidata.org/wiki/> .
+@prefix xsd:    <http://www.w3.org/2001/XMLSchema#> .
+
+viaf:114147118253426341579
+        rdf:type  schema:Person .
+
+:37     rdf:type                     schema:Book;
+        bf:agent                     viaf:261747914;
+        bf:date                      "2016"^^xsd:gYear;
+        bf:hasSeries                 wd:Q23763076;
+        bf:seriesEnumeration         "2"^^xsd:integer;
+        bf:title                     "Crooked Kingdom"@en;
+        schema:aggregateRating       [ rdf:type            schema:AggregateRating;
+                                       schema:ratingCount  "479304"^^xsd:integer;
+                                       schema:ratingValue  "4.61"^^xsd:integer
+                                     ];
+        schema:interactionStatistic  "18383"^^xsd:integer .
+
+:24     rdf:type                     schema:Book;
+        bf:agent                     viaf:103859257;
+        bf:date                      "2001"^^xsd:gYear;
+        bf:hasSeries                 wd:Q133505136;
+        bf:seriesEnumeration         "1"^^xsd:integer;
+        bf:title                     "American Gods"@en;
+        schema:aggregateRating       [ rdf:type            schema:AggregateRating;
+                                       schema:ratingCount  "857116"^^xsd:integer;
+                                       schema:ratingValue  "4.11"^^xsd:integer
+                                     ];
+        schema:interactionStatistic  "24094"^^xsd:integer .
+
+wd:Q104579618  rdf:type  schema:BookSeries .
+
+:11     rdf:type                     schema:Book;
+        bf:agent                     viaf:95218067;
+        bf:date                      "1954"^^xsd:gYear;
+        bf:hasSeries                 wd:Q15228;
+        bf:seriesEnumeration         "2"^^xsd:integer;
+        bf:title                     "The Two Towers"@en;
+        schema:aggregateRating       [ rdf:type            schema:AggregateRating;
+                                       schema:ratingCount  "847263"^^xsd:integer;
+                                       schema:ratingValue  "4.47"^^xsd:integer
+                                     ];
+        schema:interactionStatistic  "33274"^^xsd:integer .
+
+wd:Q45875  rdf:type  schema:BookSeries .
+
+viaf:98636170  rdf:type  schema:Person .
+
+:17     rdf:type                     schema:Book;
+        bf:agent                     viaf:261747914;
+        bf:date                      "2015"^^xsd:gYear;
+        bf:hasSeries                 wd:Q23763076;
+        bf:seriesEnumeration         "1"^^xsd:integer;
+        bf:title                     "Six of Crows"@en;
+        schema:aggregateRating       [ rdf:type            schema:AggregateRating;
+                                       schema:ratingCount  "711301"^^xsd:integer;
+                                       schema:ratingValue  "4.49"^^xsd:integer
+                                     ];
+        schema:interactionStatistic  "28212"^^xsd:integer .
+
+wd:Q8337  rdf:type  schema:BookSeries .
+
+:45     rdf:type                     schema:Book;
+        bf:agent                     viaf:113978172;
+        bf:date                      "1973"^^xsd:gYear;
+        bf:title                     "The Princess Bride"@en;
+        schema:aggregateRating       [ rdf:type            schema:AggregateRating;
+                                       schema:ratingCount  "852541"^^xsd:integer;
+                                       schema:ratingValue  "4.26"^^xsd:integer
+                                     ];
+        schema:interactionStatistic  "16700"^^xsd:integer .
+
+:5      rdf:type                     schema:Book;
+        bf:agent                     viaf:116796842;
+        bf:date                      "2005"^^xsd:gYear;
+        bf:hasSeries                 wd:Q8337;
+        bf:seriesEnumeration         "6"^^xsd:integer;
+        bf:title                     "Harry Potter and the Half-Blood Prince"@en;
+        schema:aggregateRating       [ rdf:type            schema:AggregateRating;
+                                       schema:ratingCount  "2923256"^^xsd:integer;
+                                       schema:ratingValue  "4.58"^^xsd:integer
+                                     ];
+        schema:interactionStatistic  "54962"^^xsd:integer .
+
+wd:Q15228  rdf:type  schema:BookSeries .
+
+:32     rdf:type                     schema:Book;
+        bf:agent                     viaf:50418535;
+        bf:date                      "2010"^^xsd:gYear;
+        bf:hasSeries                 wd:Q7766706;
+        bf:seriesEnumeration         "1"^^xsd:integer;
+        bf:title                     "The Way of Kings"@en;
+        schema:aggregateRating       [ rdf:type            schema:AggregateRating;
+                                       schema:ratingCount  "396802"^^xsd:integer;
+                                       schema:ratingValue  "4.64"^^xsd:integer
+                                     ];
+        schema:interactionStatistic  "19619"^^xsd:integer .
+
+:38     rdf:type                     schema:Book;
+        bf:agent                     viaf:12618693;
+        bf:date                      "2006"^^xsd:gYear;
+        bf:hasSeries                 wd:Q3235300;
+        bf:seriesEnumeration         "1"^^xsd:integer;
+        bf:title                     "The Lies of Locke Lamora"@en;
+        schema:aggregateRating       [ rdf:type            schema:AggregateRating;
+                                       schema:ratingCount  "264258"^^xsd:integer;
+                                       schema:ratingValue  "4.29"^^xsd:integer
+                                     ];
+        schema:interactionStatistic  "18033"^^xsd:integer .
+
+viaf:115199438  rdf:type  schema:Person .
+
+viaf:238172260  rdf:type  schema:Person .
+
+wd:Q2699024  rdf:type  schema:BookSeries .
+
+wd:Q2585559  rdf:type  schema:BookSeries .
+
+:25     rdf:type                     schema:Book;
+        bf:agent                     viaf:15972535;
+        bf:date                      "2007"^^xsd:gYear;
+        bf:hasSeries                 wd:Q478151;
+        bf:seriesEnumeration         "1"^^xsd:integer;
+        bf:title                     "City of Bones"@en;
+        schema:aggregateRating       [ rdf:type            schema:AggregateRating;
+                                       schema:ratingCount  "1861995"^^xsd:integer;
+                                       schema:ratingValue  "4.08"^^xsd:integer
+                                     ];
+        schema:interactionStatistic  "22539"^^xsd:integer .
+
+viaf:102313919  rdf:type  schema:Person .
+
+wd:Q3235300  rdf:type  schema:BookSeries .
+
+wd:Q483412  rdf:type  schema:BookSeries .
+
+:12     rdf:type                     schema:Book;
+        bf:agent                     viaf:95218067;
+        bf:date                      "1955"^^xsd:gYear;
+        bf:hasSeries                 wd:Q15228;
+        bf:seriesEnumeration         "3"^^xsd:integer;
+        bf:title                     "The Return of the King"@en;
+        schema:aggregateRating       [ rdf:type            schema:AggregateRating;
+                                       schema:ratingCount  "793098"^^xsd:integer;
+                                       schema:ratingValue  "4.55"^^xsd:integer
+                                     ];
+        schema:interactionStatistic  "31628"^^xsd:integer .
+
+viaf:49459154  rdf:type  schema:Person .
+
+:40     rdf:type                     schema:Book;
+        bf:agent                     viaf:84089315;
+        bf:date                      "1995"^^xsd:gYear;
+        bf:hasSeries                 wd:Q2512889;
+        bf:seriesEnumeration         "1"^^xsd:integer;
+        bf:title                     "Assassin's Apprentice"@en;
+        schema:aggregateRating       [ rdf:type            schema:AggregateRating;
+                                       schema:ratingCount  "282637"^^xsd:integer;
+                                       schema:ratingValue  "4.17"^^xsd:integer
+                                     ];
+        schema:interactionStatistic  "17924"^^xsd:integer .
+
+:0      rdf:type                     schema:Book;
+        bf:agent                     viaf:116796842;
+        bf:date                      "1997"^^xsd:gYear;
+        bf:hasSeries                 wd:Q8337;
+        bf:seriesEnumeration         "1"^^xsd:integer;
+        bf:title                     "Harry Potter and the Philosopher's Stone"@en;
+        schema:aggregateRating       [ rdf:type            schema:AggregateRating;
+                                       schema:ratingCount  "8827238"^^xsd:integer;
+                                       schema:ratingValue  "4.47"^^xsd:integer
+                                     ];
+        schema:interactionStatistic  "71462"^^xsd:integer .
+
+wd:Q44523  rdf:type  schema:BookSeries .
+
+viaf:60214017  rdf:type  schema:Person .
+
+viaf:73302568  rdf:type  schema:Person .
+
+:18     rdf:type                     schema:Book;
+        bf:agent                     viaf:60214017;
+        bf:date                      "2005"^^xsd:gYear;
+        bf:hasSeries                 wd:Q213167;
+        bf:seriesEnumeration         "1"^^xsd:integer;
+        bf:title                     "The Lightning Thief"@en;
+        schema:aggregateRating       [ rdf:type            schema:AggregateRating;
+                                       schema:ratingCount  "2549138"^^xsd:integer;
+                                       schema:ratingValue  "4.29"^^xsd:integer
+                                     ];
+        schema:interactionStatistic  "28160"^^xsd:integer .
+
+:46     rdf:type                     schema:Book;
+        bf:agent                     viaf:60214017;
+        bf:date                      "2007"^^xsd:gYear;
+        bf:hasSeries                 wd:Q213167;
+        bf:seriesEnumeration         "3"^^xsd:integer;
+        bf:title                     "The Titan's Curse"@en;
+        schema:aggregateRating       [ rdf:type            schema:AggregateRating;
+                                       schema:ratingCount  "883095"^^xsd:integer;
+                                       schema:ratingValue  "4.36"^^xsd:integer
+                                     ];
+        schema:interactionStatistic  "16679"^^xsd:integer .
+
+:6      rdf:type                     schema:Book;
+        bf:agent                     viaf:116796842;
+        bf:date                      "2003"^^xsd:gYear;
+        bf:hasSeries                 wd:Q8337;
+        bf:seriesEnumeration         "5"^^xsd:integer;
+        bf:title                     "Harry Potter and the Order of the Phoenix"@en;
+        schema:aggregateRating       [ rdf:type            schema:AggregateRating;
+                                       schema:ratingCount  "3019296"^^xsd:integer;
+                                       schema:ratingValue  "4.5"^^xsd:integer
+                                     ];
+        schema:interactionStatistic  "54948"^^xsd:integer .
+
+:33     rdf:type                     schema:Book;
+        bf:agent                     viaf:238172260;
+        bf:date                      "2016"^^xsd:gYear;
+        bf:hasSeries                 wd:Q60979203;
+        bf:seriesEnumeration         "2"^^xsd:integer;
+        bf:title                     "A Court of Mist and Fury"@en;
+        schema:aggregateRating       [ rdf:type            schema:AggregateRating;
+                                       schema:ratingCount  "825234"^^xsd:integer;
+                                       schema:ratingValue  "4.62"^^xsd:integer
+                                     ];
+        schema:interactionStatistic  "19576"^^xsd:integer .
+
+viaf:87557309  rdf:type  schema:Person .
+
+viaf:95218067  rdf:type  schema:Person .
+
+:20     rdf:type                     schema:Book;
+        bf:agent                     viaf:238172260;
+        bf:date                      "2015"^^xsd:gYear;
+        bf:hasSeries                 wd:Q60979203;
+        bf:seriesEnumeration         "1"^^xsd:integer;
+        bf:title                     "A Court of Thorns and Roses"@en;
+        schema:aggregateRating       [ rdf:type            schema:AggregateRating;
+                                       schema:ratingCount  "1152398"^^xsd:integer;
+                                       schema:ratingValue  "4.2"^^xsd:integer
+                                     ];
+        schema:interactionStatistic  "27144"^^xsd:integer .
+
+wd:Q57546104  rdf:type  schema:BookSeries .
+
+:39     rdf:type                     schema:Book;
+        bf:agent                     viaf:50418535;
+        bf:date                      "2007"^^xsd:gYear;
+        bf:hasSeries                 wd:Q268100;
+        bf:seriesEnumeration         "2"^^xsd:integer;
+        bf:title                     "The Well of Ascension"@en;
+        schema:aggregateRating       [ rdf:type            schema:AggregateRating;
+                                       schema:ratingCount  "370091"^^xsd:integer;
+                                       schema:ratingValue  "4.37"^^xsd:integer
+                                     ];
+        schema:interactionStatistic  "17928"^^xsd:integer .
+
+wd:Q108281102  rdf:type  schema:BookSeries .
+
+:26     rdf:type                     schema:Book;
+        bf:agent                     viaf:256400131;
+        bf:date                      "2011"^^xsd:gYear;
+        bf:title                     "The Night Circus"@en;
+        schema:aggregateRating       [ rdf:type            schema:AggregateRating;
+                                       schema:ratingCount  "850826"^^xsd:integer;
+                                       schema:ratingValue  "4.03"^^xsd:integer
+                                     ];
+        schema:interactionStatistic  "22523"^^xsd:integer .
+
+wd:Q478151  rdf:type  schema:BookSeries .
+
+wd:Q2512889  rdf:type  schema:BookSeries .
+
+:13     rdf:type                     schema:Book;
+        bf:agent                     viaf:50418535;
+        bf:date                      "2006"^^xsd:gYear;
+        bf:hasSeries                 wd:Q268100;
+        bf:seriesEnumeration         "1"^^xsd:integer;
+        bf:title                     "The Final Empire"@en;
+        schema:aggregateRating       [ rdf:type            schema:AggregateRating;
+                                       schema:ratingCount  "536486"^^xsd:integer;
+                                       schema:ratingValue  "4.46"^^xsd:integer
+                                     ];
+        schema:interactionStatistic  "29062"^^xsd:integer .
+
+viaf:103859257  rdf:type  schema:Person .
+
+:41     rdf:type                     schema:Book;
+        bf:agent                     viaf:114147118253426341579;
+        bf:date                      "2016"^^xsd:gYear;
+        bf:hasSeries                 wd:Q8337;
+        bf:seriesEnumeration         "8"^^xsd:integer;
+        bf:title                     "Harry Potter and the Cursed Child: Parts One and Two"@en;
+        schema:aggregateRating       [ rdf:type            schema:AggregateRating;
+                                       schema:ratingCount  "894440"^^xsd:integer;
+                                       schema:ratingValue  "3.52"^^xsd:integer
+                                     ];
+        schema:interactionStatistic  "17804"^^xsd:integer .
+
+:1      rdf:type                     schema:Book;
+        bf:agent                     viaf:116796842;
+        bf:date                      "1998"^^xsd:gYear;
+        bf:hasSeries                 wd:Q8337;
+        bf:seriesEnumeration         "2"^^xsd:integer;
+        bf:title                     "Harry Potter and the Chamber of Secrets"@en;
+        schema:aggregateRating       [ rdf:type            schema:AggregateRating;
+                                       schema:ratingCount  "3409926"^^xsd:integer;
+                                       schema:ratingValue  "4.43"^^xsd:integer
+                                     ];
+        schema:interactionStatistic  "59741"^^xsd:integer .
+
+:19     rdf:type                     schema:Book;
+        bf:agent                     viaf:115199438;
+        bf:date                      "1995"^^xsd:gYear;
+        bf:hasSeries                 wd:Q129240;
+        bf:seriesEnumeration         "1"^^xsd:integer;
+        bf:title                     "The Golden Compass"@en;
+        schema:aggregateRating       [ rdf:type            schema:AggregateRating;
+                                       schema:ratingCount  "1430863"^^xsd:integer;
+                                       schema:ratingValue  "4.01"^^xsd:integer
+                                     ];
+        schema:interactionStatistic  "27539"^^xsd:integer .
+
+:47     rdf:type                     schema:Book;
+        bf:agent                     viaf:76382712;
+        bf:date                      "1983"^^xsd:gYear;
+        bf:hasSeries                 wd:Q3257270;
+        bf:seriesEnumeration         "1"^^xsd:integer;
+        bf:title                     "The Color of Magic"@en;
+        schema:aggregateRating       [ rdf:type            schema:AggregateRating;
+                                       schema:ratingCount  "356919"^^xsd:integer;
+                                       schema:ratingValue  "4"^^xsd:integer
+                                     ];
+        schema:interactionStatistic  "16671"^^xsd:integer .
+
+:7      rdf:type                     schema:Book;
+        bf:agent                     viaf:98636170;
+        bf:date                      "1996"^^xsd:gYear;
+        bf:hasSeries                 wd:Q45875;
+        bf:seriesEnumeration         "1"^^xsd:integer;
+        bf:title                     "A Game of Thrones"@en;
+        schema:aggregateRating       [ rdf:type            schema:AggregateRating;
+                                       schema:ratingCount  "2281001"^^xsd:integer;
+                                       schema:ratingValue  "4.44"^^xsd:integer
+                                     ];
+        schema:interactionStatistic  "49589"^^xsd:integer .
+
+wd:Q213167  rdf:type  schema:BookSeries .
+
+:34     rdf:type                     schema:Book;
+        bf:agent                     viaf:103859257;
+        bf:date                      "1996"^^xsd:gYear;
+        bf:seriesEnumeration         "1"^^xsd:integer;
+        bf:title                     "Neverwhere"@en;
+        schema:aggregateRating       [ rdf:type            schema:AggregateRating;
+                                       schema:ratingCount  "485986"^^xsd:integer;
+                                       schema:ratingValue  "4.17"^^xsd:integer
+                                     ];
+        schema:interactionStatistic  "19328"^^xsd:integer .
+
+viaf:50418535  rdf:type  schema:Person .
+
+wd:Q7798359  rdf:type  schema:BookSeries .
+
+:21     rdf:type                     schema:Book;
+        bf:agent                     viaf:261747914;
+        bf:date                      "2012"^^xsd:gYear;
+        bf:hasSeries                 wd:Q104579618;
+        bf:seriesEnumeration         "1"^^xsd:integer;
+        bf:title                     "Shadow and Bone"@en;
+        schema:aggregateRating       [ rdf:type            schema:AggregateRating;
+                                       schema:ratingCount  "778700"^^xsd:integer;
+                                       schema:ratingValue  "3.95"^^xsd:integer
+                                     ];
+        schema:interactionStatistic  "26534"^^xsd:integer .
+
+viaf:85887056  rdf:type  schema:Person .
+
+:27     rdf:type                     schema:Book;
+        bf:agent                     viaf:102313919;
+        bf:date                      "2005"^^xsd:gYear;
+        bf:hasSeries                 wd:Q44523;
+        bf:seriesEnumeration         "1"^^xsd:integer;
+        bf:title                     "Twilight"@en;
+        schema:aggregateRating       [ rdf:type            schema:AggregateRating;
+                                       schema:ratingCount  "5911774"^^xsd:integer;
+                                       schema:ratingValue  "3.63"^^xsd:integer
+                                     ];
+        schema:interactionStatistic  "21771"^^xsd:integer .
+
+:14     rdf:type                     schema:Book;
+        bf:agent                     viaf:22144877;
+        bf:date                      "1950"^^xsd:gYear;
+        bf:hasSeries                 wd:Q483412;
+        bf:seriesEnumeration         "1"^^xsd:integer;
+        bf:title                     "The Lion, the Witch and the Wardrobe"@en;
+        schema:aggregateRating       [ rdf:type            schema:AggregateRating;
+                                       schema:ratingCount  "2518695"^^xsd:integer;
+                                       schema:ratingValue  "4.23"^^xsd:integer
+                                     ];
+        schema:interactionStatistic  "28998"^^xsd:integer .
+
+viaf:116796842  rdf:type  schema:Person .
+
+wd:Q110929608  rdf:type  schema:BookSeries .
+
+:42     rdf:type                     schema:Book;
+        bf:agent                     viaf:103859257;
+        bf:date                      "2013"^^xsd:gYear;
+        bf:title                     "The Ocean at the End of the Lane"@en;
+        schema:aggregateRating       [ rdf:type            schema:AggregateRating;
+                                       schema:ratingCount  "557712"^^xsd:integer;
+                                       schema:ratingValue  "4.01"^^xsd:integer
+                                     ];
+        schema:interactionStatistic  "17683"^^xsd:integer .
+
+:2      rdf:type                     schema:Book;
+        bf:agent                     viaf:116796842;
+        bf:date                      "1999"^^xsd:gYear;
+        bf:hasSeries                 wd:Q8337;
+        bf:seriesEnumeration         "3"^^xsd:integer;
+        bf:title                     "Harry Potter and the Prisoner of Azkaban"@en;
+        schema:aggregateRating       [ rdf:type            schema:AggregateRating;
+                                       schema:ratingCount  "3595393"^^xsd:integer;
+                                       schema:ratingValue  "4.58"^^xsd:integer
+                                     ];
+        schema:interactionStatistic  "59290"^^xsd:integer .
+
+viaf:84089315  rdf:type  schema:Person .
+
+wd:Q7766706  rdf:type  schema:BookSeries .
+
+viaf:49468743  rdf:type  schema:Person .
+
+:48     rdf:type                     schema:Book;
+        bf:agent                     viaf:87557309;
+        bf:date                      "2015"^^xsd:gYear;
+        bf:title                     "Uprooted"@en;
+        schema:aggregateRating       [ rdf:type            schema:AggregateRating;
+                                       schema:ratingCount  "209539"^^xsd:integer;
+                                       schema:ratingValue  "4.05"^^xsd:integer
+                                     ];
+        schema:interactionStatistic  "16570"^^xsd:integer .
+
+:8      rdf:type                     schema:Book;
+        bf:agent                     viaf:95218067;
+        bf:date                      "1954"^^xsd:gYear;
+        bf:hasSeries                 wd:Q15228;
+        bf:seriesEnumeration         "1"^^xsd:integer;
+        bf:title                     "The Fellowship of the Ring"@en;
+        schema:aggregateRating       [ rdf:type            schema:AggregateRating;
+                                       schema:ratingCount  "2617415"^^xsd:integer;
+                                       schema:ratingValue  "4.38"^^xsd:integer
+                                     ];
+        schema:interactionStatistic  "45975"^^xsd:integer .
+
+wd:Q3257270  rdf:type  schema:BookSeries .
+
+:35     rdf:type                     schema:Book;
+        bf:agent                     viaf:85887056;
+        bf:date                      "2011"^^xsd:gYear;
+        bf:hasSeries                 wd:Q2585559;
+        bf:seriesEnumeration         "2"^^xsd:integer;
+        bf:title                     "The Wise Man's Fear"@en;
+        schema:aggregateRating       [ rdf:type            schema:AggregateRating;
+                                       schema:ratingCount  "499952"^^xsd:integer;
+                                       schema:ratingValue  "4.55"^^xsd:integer
+                                     ];
+        schema:interactionStatistic  "18940"^^xsd:integer .
+
+viaf:22144877  rdf:type  schema:Person .
+
+wd:Q60979203  rdf:type  schema:BookSeries .
+
+:22     rdf:type                     schema:Book;
+        bf:agent                     viaf:49468743;
+        bf:date                      "2002"^^xsd:gYear;
+        bf:hasSeries                 wd:Q2699024;
+        bf:seriesEnumeration         "1"^^xsd:integer;
+        bf:title                     "Eragon"@en;
+        schema:aggregateRating       [ rdf:type            schema:AggregateRating;
+                                       schema:ratingCount  "1626768"^^xsd:integer;
+                                       schema:ratingValue  "3.93"^^xsd:integer
+                                     ];
+        schema:interactionStatistic  "26514"^^xsd:integer .
+
+viaf:261747914  rdf:type  schema:Person .
+
+wd:Q23763076  rdf:type  schema:BookSeries .
+
+wd:Q133505136  rdf:type  schema:BookSeries .
+
+viaf:15972535  rdf:type  schema:Person .
+
+:28     rdf:type                     schema:Book;
+        bf:agent                     viaf:2148874444349621260;
+        bf:date                      "2015"^^xsd:gYear;
+        bf:hasSeries                 wd:Q108281102;
+        bf:seriesEnumeration         "1"^^xsd:integer;
+        bf:title                     "A Darker Shade of Magic"@en;
+        schema:aggregateRating       [ rdf:type            schema:AggregateRating;
+                                       schema:ratingCount  "288899"^^xsd:integer;
+                                       schema:ratingValue  "4.07"^^xsd:integer
+                                     ];
+        schema:interactionStatistic  "20396"^^xsd:integer .
+
+viaf:2148874444349621260
+        rdf:type  schema:Person .
+
+:15     rdf:type                     schema:Book;
+        bf:agent                     viaf:98636170;
+        bf:date                      "2000"^^xsd:gYear;
+        bf:hasSeries                 wd:Q45875;
+        bf:seriesEnumeration         "3"^^xsd:integer;
+        bf:title                     "A Storm of Swords"@en;
+        schema:aggregateRating       [ rdf:type            schema:AggregateRating;
+                                       schema:ratingCount  "725092"^^xsd:integer;
+                                       schema:ratingValue  "4.54"^^xsd:integer
+                                     ];
+        schema:interactionStatistic  "28875"^^xsd:integer .
+
+:43     rdf:type                     schema:Book;
+        bf:agent                     viaf:73302568;
+        bf:date                      "2008"^^xsd:gYear;
+        bf:hasSeries                 wd:Q57546104;
+        bf:seriesEnumeration         "1"^^xsd:integer;
+        bf:title                     "Graceling"@en;
+        schema:aggregateRating       [ rdf:type            schema:AggregateRating;
+                                       schema:ratingCount  "433214"^^xsd:integer;
+                                       schema:ratingValue  "4.07"^^xsd:integer
+                                     ];
+        schema:interactionStatistic  "17196"^^xsd:integer .
+
+:3      rdf:type                     schema:Book;
+        bf:agent                     viaf:95218067;
+        bf:date                      "1937"^^xsd:gYear;
+        bf:title                     "The Hobbit"@en;
+        schema:aggregateRating       [ rdf:type            schema:AggregateRating;
+                                       schema:ratingCount  "3483329"^^xsd:integer;
+                                       schema:ratingValue  "4.28"^^xsd:integer
+                                     ];
+        schema:interactionStatistic  "58644"^^xsd:integer .
+
+:30     rdf:type                     schema:Book;
+        bf:agent                     viaf:49459154;
+        bf:date                      "2018"^^xsd:gYear;
+        bf:hasSeries                 wd:Q110929608;
+        bf:seriesEnumeration         "1"^^xsd:integer;
+        bf:title                     "The Cruel Prince"@en;
+        schema:aggregateRating       [ rdf:type            schema:AggregateRating;
+                                       schema:ratingCount  "728047"^^xsd:integer;
+                                       schema:ratingValue  "4.09"^^xsd:integer
+                                     ];
+        schema:interactionStatistic  "19711"^^xsd:integer .
+
+:49     rdf:type                     schema:Book;
+        bf:agent                     viaf:238172260;
+        bf:date                      "2013"^^xsd:gYear;
+        bf:hasSeries                 wd:Q7798359;
+        bf:seriesEnumeration         "2"^^xsd:integer;
+        bf:title                     "Crown of Midnight"@en;
+        schema:aggregateRating       [ rdf:type            schema:AggregateRating;
+                                       schema:ratingCount  "557633"^^xsd:integer;
+                                       schema:ratingValue  "4.36"^^xsd:integer
+                                     ];
+        schema:interactionStatistic  "16529"^^xsd:integer .
+
+:9      rdf:type                     schema:Book;
+        bf:agent                     viaf:98636170;
+        bf:date                      "1998"^^xsd:gYear;
+        bf:hasSeries                 wd:Q45875;
+        bf:seriesEnumeration         "2"^^xsd:integer;
+        bf:title                     "A Clash of Kings"@en;
+        schema:aggregateRating       [ rdf:type            schema:AggregateRating;
+                                       schema:ratingCount  "865168"^^xsd:integer;
+                                       schema:ratingValue  "4.41"^^xsd:integer
+                                     ];
+        schema:interactionStatistic  "34640"^^xsd:integer .
+
+:36     rdf:type                     schema:Book;
+        bf:agent                     viaf:60214017;
+        bf:date                      "2006"^^xsd:gYear;
+        bf:hasSeries                 wd:Q213167;
+        bf:seriesEnumeration         "2"^^xsd:integer;
+        bf:title                     "The Sea of Monsters"@en;
+        schema:aggregateRating       [ rdf:type            schema:AggregateRating;
+                                       schema:ratingCount  "973020"^^xsd:integer;
+                                       schema:ratingValue  "4.24"^^xsd:integer
+                                     ];
+        schema:interactionStatistic  "18473"^^xsd:integer .
+
+:23     rdf:type                     schema:Book;
+        bf:agent                     viaf:98636170;
+        bf:date                      "2011"^^xsd:gYear;
+        bf:hasSeries                 wd:Q45875;
+        bf:seriesEnumeration         "5"^^xsd:integer;
+        bf:title                     "A Dance with Dragons"@en;
+        schema:aggregateRating       [ rdf:type            schema:AggregateRating;
+                                       schema:ratingCount  "608297"^^xsd:integer;
+                                       schema:ratingValue  "4.33"^^xsd:integer
+                                     ];
+        schema:interactionStatistic  "24421"^^xsd:integer .
+
+viaf:76382712  rdf:type  schema:Person .
+
+:10     rdf:type                     schema:Book;
+        bf:agent                     viaf:85887056;
+        bf:date                      "2007"^^xsd:gYear;
+        bf:hasSeries                 wd:Q2585559;
+        bf:seriesEnumeration         "1"^^xsd:integer;
+        bf:title                     "The Name of the Wind"@en;
+        schema:aggregateRating       [ rdf:type            schema:AggregateRating;
+                                       schema:ratingCount  "854536"^^xsd:integer;
+                                       schema:ratingValue  "4.52"^^xsd:integer
+                                     ];
+        schema:interactionStatistic  "33511"^^xsd:integer .
+
+wd:Q129240  rdf:type  schema:BookSeries .
+
+:29     rdf:type                     schema:Book;
+        bf:agent                     viaf:76382712;
+        bf:date                      "1990"^^xsd:gYear;
+        bf:title                     "Good Omens: The Nice and Accurate Prophecies of Agnes Nutter, Witch"@en;
+        schema:aggregateRating       [ rdf:type            schema:AggregateRating;
+                                       schema:ratingCount  "651803"^^xsd:integer;
+                                       schema:ratingValue  "4.25"^^xsd:integer
+                                     ];
+        schema:interactionStatistic  "20380"^^xsd:integer .
+
+viaf:12618693  rdf:type  schema:Person .
+
+wd:Q268100  rdf:type  schema:BookSeries .
+
+:16     rdf:type                     schema:Book;
+        bf:agent                     viaf:98636170;
+        bf:date                      "2005"^^xsd:gYear;
+        bf:hasSeries                 wd:Q45875;
+        bf:seriesEnumeration         "4"^^xsd:integer;
+        bf:title                     "A Feast for Crows"@en;
+        schema:aggregateRating       [ rdf:type            schema:AggregateRating;
+                                       schema:ratingCount  "683927"^^xsd:integer;
+                                       schema:ratingValue  "4.15"^^xsd:integer
+                                     ];
+        schema:interactionStatistic  "28609"^^xsd:integer .
+
+:44     rdf:type                     schema:Book;
+        bf:agent                     viaf:261747914;
+        bf:date                      "2013"^^xsd:gYear;
+        bf:hasSeries                 wd:Q104579618;
+        bf:seriesEnumeration         "2"^^xsd:integer;
+        bf:title                     "Siege and Storm"@en;
+        schema:aggregateRating       [ rdf:type            schema:AggregateRating;
+                                       schema:ratingCount  "488552"^^xsd:integer;
+                                       schema:ratingValue  "3.85"^^xsd:integer
+                                     ];
+        schema:interactionStatistic  "17185"^^xsd:integer .
+
+:4      rdf:type                     schema:Book;
+        bf:agent                     viaf:116796842;
+        bf:date                      "2000"^^xsd:gYear;
+        bf:hasSeries                 wd:Q8337;
+        bf:seriesEnumeration         "4"^^xsd:integer;
+        bf:title                     "Harry Potter and the Goblet of Fire"@en;
+        schema:aggregateRating       [ rdf:type            schema:AggregateRating;
+                                       schema:ratingCount  "3164528"^^xsd:integer;
+                                       schema:ratingValue  "4.57"^^xsd:integer
+                                     ];
+        schema:interactionStatistic  "57211"^^xsd:integer .
+
+viaf:113978172  rdf:type  schema:Person .
+
+viaf:256400131  rdf:type  schema:Person .
+
+:31     rdf:type                     schema:Book;
+        bf:agent                     viaf:103859257;
+        bf:date                      "1998"^^xsd:gYear;
+        bf:title                     "Stardust"@en;
+        schema:aggregateRating       [ rdf:type            schema:AggregateRating;
+                                       schema:ratingCount  "411955"^^xsd:integer;
+                                       schema:ratingValue  "4.1"^^xsd:integer
+                                     ];
+        schema:interactionStatistic  "19658"^^xsd:integer .
+
